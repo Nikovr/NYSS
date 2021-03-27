@@ -1,0 +1,41 @@
+﻿<Page x:Class="Caesar_Cipher.Interface"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Caesar_Cipher"
+        mc:Ignorable="d"
+        Title="Шифр Цезаря" Background="#FFA66437">
+    <Grid x:Name="ui" Background="#FFAE967A">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="🠔" Grid.Column="0" Grid.Row="0" FontFamily="Arial Black" Background="#FFBEB49F" Click="Return" FontSize="18"/>
+        <Border x:Name="b" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="5" Margin="1"/>
+        <TextBox x:Name="text" GotFocus="TextBox_Focus" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="5" VerticalScrollBarVisibility="Visible" Height="{Binding ActualHeight, ElementName=b}" Width="{Binding ActualWidth, ElementName=b}" Margin="1" TextWrapping="Wrap" AcceptsReturn="True" Text="Введите текст..."  Background="#FFE1DBD2" FontSize="22"/>
+        <Button Content="Загрузить текст из файла" Click="UploadText" Grid.Column="1" Grid.Row="3" Background="#FFBEB49F"/>
+        <Button Content="Cохранить текст в файл" Click="SaveText" Grid.Column="5" Grid.Row="3" Background="#FFBEB49F"/>
+        <TextBlock x:Name="letter" TextWrapping="Wrap" Text="А" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="72" FontFamily="Mistral" Grid.Column="0" Grid.Row="2"/>
+        <TextBox x:Name="step" MaxLength="2" TextChanged="StepChanged" PreviewTextInput="PreviewStepInput" Text="0" Grid.Row="5" Grid.Column="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFE1DBD2" FontSize="36"/>
+        <TextBlock Text="ШАГ" FontSize="36" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Button Content="-" Background="#FFBEB49F" FontSize="36" Click="MinusStep" FontWeight="Bold" Grid.Column="2" Grid.Row="5"/>
+        <Button Content="+" Background="#FFBEB49F" FontSize="36" Click="PlusStep" FontWeight="Bold" Grid.Column="4" Grid.Row="5" />
+        <Button Content="Попробовать расшифровать автоматически" Background="#FFBEB49F" FontSize="12" Click="TryHack" Grid.Column="2" Grid.Row="0" Grid.ColumnSpan="3" />
+    </Grid>
+    
+</Page>

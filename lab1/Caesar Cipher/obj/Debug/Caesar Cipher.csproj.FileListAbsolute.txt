@@ -1,0 +1,19 @@
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\bin\Debug\Caesar Cipher.exe.config
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\bin\Debug\Caesar Cipher.exe
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\bin\Debug\Caesar Cipher.pdb
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar Cipher.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar Cipher_MarkupCompile.cache
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar Cipher_MarkupCompile.lref
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\MainWindow.baml
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar Cipher.g.resources
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar_Cipher.Properties.Resources.resources
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar Cipher.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar Cipher.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar Cipher.exe
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar Cipher.pdb
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\Interface.g.cs
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\Interface.baml
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\Menu.g.cs
+C:\Users\Admin\source\repos\Caesar Cipher\Caesar Cipher\obj\Debug\Menu.baml
